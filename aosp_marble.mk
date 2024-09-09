@@ -8,13 +8,13 @@
 $(call inherit-product, device/xiaomi/marble/device.mk)
 
 # Inherit from common CrDroid configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_DISABLE_EPPE := true
 TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_64_BIT_APPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := lineage_marble
+PRODUCT_NAME := aosp_marble
 PRODUCT_DEVICE := marble
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
