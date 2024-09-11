@@ -7,7 +7,7 @@
 # Inherit from marble device
 $(call inherit-product, device/xiaomi/marble/device.mk)
 
-# Inherit from common CrDroid configuration
+# Inherit from common aosp configuration
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_DISABLE_EPPE := true
 TARGET_ENABLE_BLUR := true
